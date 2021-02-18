@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.3fr 0.5fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "idiomainfo idiomainfo idiomainfo";
+  }
+  
+  .idiomainfo {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1.7fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "idiomanombre . tecnica"
+      "idiomanombre . tecnica";
+    grid-area: idiomainfo;
+  }
+  
+  .idiomanombre { grid-area: idiomanombre; }
+  
+  .tecnica { grid-area: tecnica; }
+  

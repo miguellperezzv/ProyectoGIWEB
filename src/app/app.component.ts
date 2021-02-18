@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ProyectoGIWEB';
+
+  valores=[
+    ["Empatía", "fas fa-handshake"],
+    ["Resiliencia", "fas fa-child"],
+    ["Cooperación", "fas fa-hands-helping"],
+    ["Responsabilidad", "fas fa-check-double"],
+  ]
+  title = 'Presentación';
+  user = 'Miguel'
 }

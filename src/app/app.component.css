@@ -1,0 +1,146 @@
+.bg-purple{
+    background-color: blueviolet;
+}
+div{
+    background-color: #f4de4d;
+    
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+i{
+  font-size: 30px;
+  color: white;
+}
+
+h1{
+    
+    font-family: 'Roboto Mono', monospace, bold;
+    font-size: 50px;
+}
+h4{
+    font-family: 'Roboto Mono', monospace, bold;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace, bold;
+    font-size: 15px;
+}
+
+#subt{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "portada portada portada portada portada";
+  }
+  
+  .portada {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 2.6fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      "foto info info"
+      ". . .";
+    grid-area: portada;
+  }
+  
+  .foto { grid-area: foto; 
+    text-align: center;    
+}
+  
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "nombre nombre nombre"
+      "redes redes redes";
+    grid-area: info;
+  }
+  
+  .nombre { grid-area: nombre; 
+            border-style: solid;
+            border-color: white;
+            border-width: 4px;;       
+    }
+  
+  .redes { grid-area: redes; }
+
+
+
+
+  /*GRID DEL CUERPO!!!*/
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+  }
+  
+  .cv { grid-area: 1 / 1 / 2 / 8; }
+  
+  .principal {
+    display: grid;
+    grid-template-columns: 0.2fr 1.8fr 1fr 1fr 1.8fr 0.2fr;
+    grid-template-rows: 0.3fr 1.2fr 0.2fr 1.2fr 0.2fr 3.6fr 0.2fr 2.4fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . . ."
+      ". acerca acerca acerca acerca ."
+      ". . . . . ."
+      ". aptitudes aptitudes aptitudes aptitudes ."
+      ". . . . . ."
+      ". estudios estudios estudios estudios ."
+      ". . . . . ."
+      ". gustos gustos gustos gustos ."
+      ". . . . . .";
+    grid-area: 1 / 1 / 2 / 5;
+  }
+  
+  .acerca { grid-area: acerca; }
+  
+  .aptitudes { grid-area: aptitudes; }
+  
+  .estudios { grid-area: estudios; }
+  
+  .gustos { grid-area: gustos; }
+  
+  .extra {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr 1fr 1.7fr 0.3fr;
+    grid-template-rows: 0.2fr 2.6fr 0.1fr 1.4fr 0.1fr 2.3fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . ."
+      ". lenguajes lenguajes lenguajes ."
+      ". . . . ."
+      ". idiomas idiomas idiomas ."
+      ". . . . ."
+      ". referencias referencias referencias ."
+      ". . . . .";
+    grid-area: 1 / 5 / 2 / 8;
+  }
+  
+  .lenguajes { grid-area: lenguajes; }
+  
+  .idiomas { grid-area: idiomas; }
+  
+  .referencias { grid-area: referencias; }
+  
