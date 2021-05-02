@@ -1,6 +1,6 @@
 # ProyectoGIWEB
-## Luis Miguel Pérez Valderrama Universidad Distrital Francisco José de Caldas Bogotá
-## Hoja de Vida Angular, Grupo de trabajo GIWEB
+# Luis Miguel Pérez Valderrama Universidad Distrital Francisco José de Caldas Bogotá
+# Hoja de Vida Angular, Grupo de trabajo GIWEB
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
